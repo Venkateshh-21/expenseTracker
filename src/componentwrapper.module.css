@@ -1,0 +1,45 @@
+.allComponents {
+  height: 100vh;
+  width: 100vw;
+  background-color: #3b3b3b;
+  margin: 0;
+  padding: auto;
+}
+
+.heading {
+  color: white;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+}
+
+.add {
+  box-sizing: border-box;
+  height: 50vh;
+  width: 95vw;
+  display: flex;
+  gap: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 20px;
+  background-color: #626262;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.addmodalform {
+    position: absolute;
+  width: 95%;
+  max-width: 572px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  height: fit-content;
+  max-height: 90vh;
+  background: rgba(239, 239, 239, 0.85);
+  border: 0;
+  border-radius: 15px;
+  padding: 2rem;
+}

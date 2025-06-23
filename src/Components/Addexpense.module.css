@@ -1,0 +1,37 @@
+.formwrapper{
+    
+   margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.addexpenseform{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.subdivs{
+    display: flex;
+    gap: 20px;
+}
+.inputsize{
+     height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+.addexpense{
+    height: 45px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+}
+.cancel{
+     height: 45px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    color:black;
+    outline: none;
+}

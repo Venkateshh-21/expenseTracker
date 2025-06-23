@@ -1,0 +1,40 @@
+.piechartwrap{
+    margin-left: 50px;
+}
+ .piechart{
+    height: 200px;
+    
+ }
+.labellings{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.food{
+    height: 10px;
+    width: 26px;
+    background-color:#A000FF;
+    display: inline-block;
+    margin-right: 5px;
+   
+}
+
+p{
+    color: white;
+}
+
+.entertainment{
+     height: 10px;
+    width: 26px;
+    background-color:#FF9304;
+    display: inline-block;
+    margin-right: 5px;
+}
+.travel{
+     height: 10px;
+    width: 26px;
+    background-color:#FDE006;
+    display: inline-block;
+    margin-right: 5px;
+}

@@ -1,0 +1,47 @@
+.addTitle{
+color:#9DFA5D;
+}
+.expenseTitle{
+ color: #DBB261;
+}
+.title{
+  color: white;
+  text-decoration: solid;
+  text-size-adjust: 100%;
+}
+.cardBackground{
+    background-color:  #9B9B9B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 45px 20px;
+    height: 150px;
+    width: 300px;
+     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.addMoney{
+    border:0;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 15px;
+    padding:15px 30px;
+    color:white;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(126, 204, 120, 1) 0%,rgba(87, 199, 133, 1) 92%);
+}
+
+.addExpense{
+    border:0;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 15px;
+    padding:15px 30px;
+    color:white;
+    cursor: pointer;
+    background: linear-gradient(90deg,rgba(255, 139, 139, 1) 0%, rgba(255, 93, 93, 1) 35%, rgba(255, 61, 61, 1) 59%);
+}
+
