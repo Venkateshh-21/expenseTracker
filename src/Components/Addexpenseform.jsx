@@ -24,9 +24,13 @@ const Addexpenseform = ({ expenses, balance, setExpenses, setExpenseOpen,setBala
       setExpenseOpen(false);
       return;
     }
-     setExpenses([...expenses,inputData]);
+    
+     setExpenses(expenses=>{
+      const latestId=expenses.length>0?expenses[0].id+1:0;
+     return  [{...inputData,id:latestId},...expenses]}
+    );
      setBalance(balance-Number(inputData.price))
-     setExpense()
+    
 
     setInputData ({
       title: "",
@@ -88,7 +92,7 @@ const Addexpenseform = ({ expenses, balance, setExpenses, setExpenseOpen,setBala
           <button type="submit" className={styles.addexpense}>
             Addexpense
           </button>
-          <button className={styles.cancel}>Cancel</button>
+          <button className={styles.cancel} onClick={()=>setExpenseOpen(false)}>Cancel</button>
         </div>
       </form>
     </div>

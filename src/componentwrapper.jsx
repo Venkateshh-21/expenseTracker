@@ -114,7 +114,7 @@ const Componentwrapper = (e) => {
         className={styles.addmodalform}
         onRequestClose={handleCloseexpense}
         shouldCloseOnOverlayClick={true}
-        ariaHideApp={false}
+        
       >
         <Addexpenseform
           setExpenses={setExpenses}

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import styles from "./Piechart.module.css"
 import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
 
