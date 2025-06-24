@@ -102,11 +102,13 @@ const Componentwrapper = (e) => {
         className={styles.addmodalform}
         onRequestClose={handleCloseadd}
         shouldCloseOnOverlayClick={true}
+         ariaHideApp={false}
       >
         <Addbalanceform
           setisAddBalanceOpen={setisAddBalanceOpen}
           setBalance={setBalance}
           balance={balance}
+
         />
       </ReactModal>
       <ReactModal
@@ -114,7 +116,7 @@ const Componentwrapper = (e) => {
         className={styles.addmodalform}
         onRequestClose={handleCloseexpense}
         shouldCloseOnOverlayClick={true}
-        
+         ariaHideApp={false}
       >
         <Addexpenseform
           setExpenses={setExpenses}
