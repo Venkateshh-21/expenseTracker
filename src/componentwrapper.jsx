@@ -82,7 +82,7 @@ const Componentwrapper = (e) => {
 
   return (
     <div className={styles.allComponents}>
-      <h1 className={styles.heading}>Expense Tracker</h1>
+      <h1 >Expense Tracker</h1>
       <div className={styles.add}>
         <Card
           title={"Wallet Balance"}
