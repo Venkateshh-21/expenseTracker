@@ -75,9 +75,9 @@ const Addexpenseform = ({ expenses, balance, setExpenses, setExpenseOpen,setBala
             <option value="" >
               Select Category
             </option>
-            <option value="food" >Food</option>
-            <option value="entertainment">Entertainment</option>
-            <option value="travel">Travel</option>
+            <option value="Food" >Food</option>
+            <option value="Entertainment">Entertainment</option>
+            <option value="Travel">Travel</option>
           </select>
           <input
             type="date"
