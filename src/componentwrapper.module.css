@@ -43,3 +43,18 @@
   border-radius: 15px;
   padding: 2rem;
 }
+
+ .transactionBar{
+  width: 100vw;
+  background-color: #3b3b3b;
+  display: flex;
+  justify-content: space-be;
+  gap: 40px;
+ }
+
+ .Tlist{
+  width: 50%;
+ }
+ .bar{
+  width: 50%;
+ }

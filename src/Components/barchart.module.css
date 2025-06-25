@@ -1,0 +1,16 @@
+.barchart {
+  height: 50%;
+  width: 40%;
+  border-radius: 8px;
+}
+h2 {
+  font-style: italic;
+  color: white;
+}
+.bar {
+  padding: 10px;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 60px;
+  border-radius: 15px;
+}

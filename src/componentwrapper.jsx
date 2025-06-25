@@ -5,6 +5,9 @@ import Addbalanceform from "./Components/Addbalanceform";
 import ReactModal from "react-modal";
 import { useEffect, useState } from "react";
 import Addexpenseform from "./Components/Addexpenseform";
+import TransactionList from "./Components/TransactionList";
+import Barchart from "./Components/Barchart";
+ReactModal.setAppElement('#root');
 
 const Componentwrapper = (e) => {
   const [balance, setBalance] = useState(localStorage.getItem("balance") || 0);
@@ -95,6 +98,17 @@ const Componentwrapper = (e) => {
           handleClick={addExpenseClick}
         />
         <Piechart data ={[{name:"Food",value:cateoSpends.food}, {name: "Entertainment", value: cateoSpends.entertainment },
+            { name: "Travel", value: cateoSpends.travel }]} />
+      </div>
+      <div className={styles.transactionBar}>
+        <TransactionList 
+        balance={balance}
+        setBalance={setBalance}
+        expenses={expenses}
+        setExpenses={setExpenses}
+
+        />
+        <Barchart  data={[{name:"Food",value:cateoSpends.food}, {name: "Entertainment", value: cateoSpends.entertainment },
             { name: "Travel", value: cateoSpends.travel }]} />
       </div>
       <ReactModal
