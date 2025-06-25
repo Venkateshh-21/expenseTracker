@@ -92,7 +92,7 @@ const Addexpenseform = ({ expenses, balance, setExpenses, setExpenseOpen,setBala
         </div>
         <div className={styles.subdivs}>
           <button type="submit" className={styles.addexpense}>
-            Addexpense
+           Add Expense
           </button>
           <button className={styles.cancel} onClick={()=>setExpenseOpen(false)}>Cancel</button>
         </div>
