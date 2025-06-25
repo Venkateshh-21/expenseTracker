@@ -87,7 +87,7 @@ const Componentwrapper = (e) => {
         <Card
           title={"Wallet Balance"}
           money={balance}
-          buttonContent={"+Add Income"}
+          buttonContent={"+ Add Income"}
           btType={"addMoney"}
           handleClick={addButtonClick}
         />
