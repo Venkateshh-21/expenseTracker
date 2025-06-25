@@ -47,6 +47,7 @@ const Addexpenseform = ({ expenses, balance, setExpenses, setExpenseOpen,setBala
       <form action="" className={styles.addexpenseform} onSubmit={onSubmit}>
         <div className={styles.subdivs}>
           <input
+
             type="text"
             placeholder="Title"
             name="title"
@@ -80,6 +81,7 @@ const Addexpenseform = ({ expenses, balance, setExpenses, setExpenseOpen,setBala
             <option value="Travel">Travel</option>
           </select>
           <input
+            
             type="date"
             placeholder="dd/mm/yyyy"
             name="date"

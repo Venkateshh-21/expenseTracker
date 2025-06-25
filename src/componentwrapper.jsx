@@ -94,7 +94,7 @@ const Componentwrapper = (e) => {
         <Card
           title={"Expenses"}
           money={expense}
-          buttonContent={"+Add expense"}
+          buttonContent={"+ Add Expense"}
           handleClick={addExpenseClick}
         />
         <Piechart data ={[{name:"Food",value:cateoSpends.food}, {name: "Entertainment", value: cateoSpends.entertainment },
